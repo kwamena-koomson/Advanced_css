@@ -3,7 +3,7 @@
  * [Modified] Modern CSS Reset
  * @link https://github.com/hankchizljaw/modern-css-reset
 */
-/* Box sizing rules */
+
 * {
   box-sizing: border-box;
 }
@@ -11,7 +11,6 @@
   box-sizing: border-box;
 }
 
-/* Remove default margin */
 body, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
@@ -20,7 +19,6 @@ html {
   overflow-x: hidden;
 }
 
-/* Set core body defaults */
 body {
   min-height: 100vh;
   font-size: 100%;
@@ -29,18 +27,15 @@ body {
   overflow-x: hidden;
 }
 
-/* Make images easier to work with */
 img {
   display: block;
   max-width: 100%;
 }
 
-/* Inherit fonts for inputs and buttons */
 input, button, textarea, select, * {
   font-family: "Arial", sans-serif;
 }
 
-/* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.01ms !important;
@@ -726,7 +721,6 @@ svg {
 .skip-link {
   display: none;
 }
-
 
 
 /*# sourceMappingURL=style.css.map */

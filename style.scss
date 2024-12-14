@@ -14,8 +14,6 @@
   }
 }
 
-/* Remove default margin */
-
 body, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
@@ -23,8 +21,6 @@ body, h1, h2, h3, h4, h5, h6 {
 html {
   overflow-x: hidden;
 }
-
-/* Set core body defaults */
 
 body {
   min-height: 100vh;
@@ -34,20 +30,15 @@ body {
   overflow-x: hidden;
 }
 
-/* Make images easier to work with */
-
 img {
   display: block;
   max-width: 100%;
 }
 
-/* Inherit fonts for inputs and buttons */
-
 input, button, textarea, select, * {
   font-family: 'Arial', sans-serif;
 }
 
-/* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.01ms !important;
@@ -73,7 +64,6 @@ body {
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
 
-  /*min-height: calc(100vh - 2rem);*/
   display: flex;
   flex-direction: column;
   align-items: stretch;
